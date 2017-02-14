@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/book_name"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:textColor="@color/colorPrimary"
+    android:text="绝世剑神"/>
+    <TextView
+        android:id="@+id/tv_author_name"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="作者：喜欢老虎"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:padding="14dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/new_page"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_author_name"
+        android:padding="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_height="wrap_content"
+        android:text="最新更新：第二章 激情四射"/>
+    <TextView
+        android:id="@+id/update_time"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/new_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="更新时间：17-01-19"/>
+</RelativeLayout>
